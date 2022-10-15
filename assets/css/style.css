@@ -1,0 +1,88 @@
+body {
+    font-family: "VT323", monospace;
+margin: 0;
+background: #303030;
+color: #fff;
+  }
+  #hac{
+margin-top: 250px;
+text-align: center;
+  }
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .social {
+    position: fixed;
+    top: 20px;
+  }
+  .social ul {
+    padding: 0px;
+    transform: translate(-270px, 0);
+  }
+  .social ul li {
+    display: block;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.36);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 0 30px 30px 0;
+    transition: all 1s;
+  }
+  .social ul li:hover {
+    transform: translate(110px, 0);
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .social ul li:hover a {
+    color: #000;
+  }
+  .social ul li:hover i {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.36);
+    transform: rotate(360deg);
+    transition: all 1s;
+  }
+  .social ul li i {
+    margin-left: 10px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    transform: rotate(0deg);
+  }
+  button {
+    margin: 30px;
+    font-family: inherit;
+  }
+  .simple {
+    margin-left: 45%;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 8px 35px 8px;
+    outline: 0;
+    border: 1px solid white;;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .simple::after {
+    content: "";
+    background-color: gray;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+  }
+  .pe{
+    text-align: center;
+    font-size: medium;
+  }
