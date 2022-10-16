@@ -1,9 +1,12 @@
 body {
-    font-family: "VT323", monospace;
 margin: 0;
 background: #303030;
 color: #fff;
   }
+@font-face {
+  font-family: "VT323", monospace;
+  font-display: swap;
+}
   #hac{
 margin-top: 250px;
 text-align: center;
